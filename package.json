@@ -34,9 +34,10 @@
     "preview": "vite preview",
     "commitlint": "commitlint --edit",
     "commitizen": "exec < /dev/tty && git cz --hook || true",
-    "prepare": "husky"
   },
   "dependencies": {
+    "@firebase/firestore": "^4.7.5",
+    "@firebase/messaging": "^0.12.15",
     "@hookform/resolvers": "^3.9.0",
     "@nivo/bar": "^0.87.0",
     "@nivo/core": "^0.87.0",
@@ -46,6 +47,7 @@
     "@tanstack/react-router": "^1.51.6",
     "@tanstack/react-table": "^8.20.5",
     "dayjs": "^1.11.13",
+    "firebase": "^11.1.0",
     "i18next": "^23.14.0",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^2.6.1",
